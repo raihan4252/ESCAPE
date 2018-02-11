@@ -1,0 +1,663 @@
+*{margin: 0; padding: 0;}
+
+.wrapper{
+    width:940px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+@font-face{
+    font-family:cubano;
+   src:url(https://dl.dropboxusercontent.com/s/s97xecm37jfcoxo/Cubano-Regular.ttf)
+}
+@font-face{
+    font-family:BrandonGrotesque;
+   src:url(https://dl.dropboxusercontent.com/s/2um26z3mmz4vl6i/BrandonGrotesque-Bold.ttf)
+}
+
+.header {
+    width: 100%;
+    min-height: 617px;
+    background-image: url(../images/headerBG.jpg);
+    border-bottom: 1px solid #006200;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+.header:after{
+    content: "";
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(0,0,0,.3);
+}
+
+.logo {
+    width: 154px;
+    min-height: 33px;
+    float: left;
+    overflow: hidden;
+    margin-top: 42px;
+    
+}
+
+.logo h1{
+    color: white;
+    font-family:Cubano;
+    font-size: 25px;
+    float: right;
+    margin-top: 5px;
+    font-weight: bold;
+}
+.logo img{
+    margin-left: 28px;
+    margin-top: 7px;
+}
+
+.menubar {
+    width: 385px;
+    min-height: 20px;
+    float: right;
+    
+}
+.menubar ul{
+    list-style: none;
+    
+}
+.menubar ul li{
+    float: left;
+    
+}
+.menubar ul li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+    font-family: Brandon Grotesque;
+    font-weight: 100;
+    padding: 46px 13px;
+    
+}
+.header_title {
+    width: 940px;
+    min-height:124px;
+    overflow: hidden;
+    margin: 0px auto;
+    padding-top: 60px;
+}
+.header_title p{
+    font-size: 32px;
+    font-family: Brandon Grotesque;
+    font-weight: 100;
+    color: #d2d1d2;
+    text-align: center;
+    
+}
+.header_title h1{ 
+    font-size: 66px;
+    font-family: Brandon Grotesque;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+button{
+    width: 242px;
+    min-height: 65px;
+    margin: 100px 318px;
+    background: none;
+    color:white;
+    font-size: 23px;
+    font-weight: bold;
+    font-family:Brandon Grotesque;
+    border: 2px solid white;
+    border-radius: 3%;
+}
+button:hover{
+    background-color: white;
+    color:black;
+}
+
+.main_content {
+    width: 100%;
+    background-color: #fafafa;
+    overflow: hidden;
+}
+
+.web_dev {
+    width: 860px;
+    min-height: 240px;
+    margin-top: 100px;
+}
+.wbdvtitle{
+    width: 570px;
+    min-height: 240px;
+    float: left;
+}
+.branding{
+   width: 860px;
+    min-height: 240px;
+    margin-top: 200px;
+}
+.web_dev img{
+    float: right;
+}
+.wbdvtitle new{
+    width: 570px;
+    min-height: 240px;
+    float: right;
+    padding-left: 5px;
+}
+.eki{
+    font-size: 60px;
+    font-weight: 300;
+    font-family:Brandon Grotesque;
+    padding-left: 20px;
+    
+}
+.ekip{
+    font-size: 15px;
+    font-family:Brandon Grotesque;
+    padding-left: 20px;
+    color:#a2a2a2;
+}
+.branding img{
+    float: left;
+}
+
+/*MAIN CONTENT DONE*/
+
+.smalldiv {
+    width: 860px;
+    min-height: 390px;
+    margin-top: 200px;
+}
+
+.divv1{
+    width: 380px;
+    min-height: 109px;
+    float: left;
+    
+}
+.imggdiv1 {
+    width:72px;
+    min-height:72px;
+    background: url(../images/person-icon.png) no-repeat #222222 50%;
+    border: none;
+    border-radius: 50%;
+    float: left;
+}
+.paradivv1 {
+    float: right;
+    width: 290px;
+    min-height: 102px;
+}
+.hopp{
+    font-family:Brandon Grotesque;
+    font-size: 22px;
+    color: #222222;
+    font-weight: bold;
+    
+}
+.popp{
+    font-family:Brandon Grotesque;
+    font-size: 18px;
+    color: #838383;
+    
+}
+.divv2{
+    width: 380px;
+    min-height: 109px;
+    float: right;
+    
+}
+.imggdiv2 {
+    width:72px;
+    min-height:72px;
+    background: url(../images/icon-2.png) no-repeat #222222 50%;
+    border: none;
+    border-radius: 50%;
+    float: left;
+}
+.paradivv2 {
+    float: right;
+    width: 290px;
+    min-height: 102px;
+}
+.divv3{
+    width: 380px;
+    min-height: 109px;
+    float: left;
+    margin-top: 50px;
+    
+    
+}
+.imggdiv3 {
+    width:72px;
+    min-height:72px;
+    background: url(../images/icon-3.png) no-repeat #222222 50%;
+    border: none;
+    border-radius: 50%;
+    float: left;
+}
+.paradivv3 {
+    float: right;
+    width: 290px;
+    min-height: 102px;
+}
+.divv4{
+    width: 380px;
+    min-height: 109px;
+    float: right;
+    margin-top: 50px;
+    
+}
+.imggdiv4 {
+    width:72px;
+    min-height:72px;
+    background: url(../images/animation.png) no-repeat #222222 50%;
+    border: none;
+    border-radius: 50%;
+    float: left;
+}
+.paradivv4 {
+    float: right;
+    width: 290px;
+    min-height: 102px;
+}
+.divv5{
+    width: 380px;
+    min-height: 109px;
+    float: left;
+    margin-top: 50px;
+    
+}
+.imggdiv5 {
+    width:72px;
+    min-height:72px;
+    background: url(../images/ui.png) no-repeat #222222 50%;
+    border: none;
+    border-radius: 50%;
+    float: left;
+}
+.paradivv5 {
+    float: right;
+    width: 290px;
+    min-height: 102px;
+}
+.divv6{
+    width: 380px;
+    min-height: 109px;
+    float: right;
+    margin-top: 50px;
+    
+}
+.imggdiv6 {
+    width:72px;
+    min-height:72px;
+    background: url(../images/camera.png) no-repeat #222222 50%;
+    border: none;
+    border-radius: 50%;
+    float: left;
+}
+.paradivv6 {
+    float: right;
+    width: 290px;
+    min-height: 102px;
+}
+.awesome{
+    margin-top: 200px;
+    width: 570px;
+    min-height: 80px;
+}
+.awesome h1{
+    font-family:Brandon Grotesque;
+    font-size: 60px;
+    color: #222222;
+    font-weight: 100;
+    text-align: center;
+    
+}
+.awesome p{
+    font-family:Brandon Grotesque;
+    font-size: 22px;
+    color: #222222;
+    text-align: center;
+    
+}
+
+/*SMALL DIVS ENDED*/
+.promo{
+    width: 940px;
+    min-height: 450px;
+    margin-top: 80px;
+    position: relative;
+}
+
+.proin1 {
+    width: 940px;
+    min-height: 180px;
+}
+.parr1{
+    font-family:Brandon Grotesque;
+    font-size: 26px;
+    color: #222222;
+    background: url(../images/speakbox.jpg) no-repeat;
+    width: 565px;
+    min-height: 175px;
+    
+    float: right;
+    text-align: center;
+}
+span{
+    font-family:Brandon Grotesque;
+    font-size: 20px;
+    color: #7690c5;
+    padding-right: 146px;
+    
+}
+
+.kalodiv1 {
+    width: 230px;
+    min-height: 230px;
+    background-image: url(../images/me.jpg);
+    border: none;
+    border-radius: 50%;
+    float: left;
+    position: absolute;
+    bottom: 283px;
+}
+.kalodiv2 {
+    width: 230px;
+    min-height: 230px;
+    background-image: url(../images/me%202.jpg);
+    border: none;
+    border-radius: 50%;
+    float: right;
+    position: absolute;
+    left: 710px;
+    bottom: 50px;
+}
+
+.proin2 {
+    width: 940px;
+    min-height: 180px;
+    margin-top: 50px;
+}
+.parr2{
+    font-family:Brandon Grotesque;
+    font-size: 26px;
+    color: #222222;
+    background: url(../images/spkkkkkk.jpg) no-repeat;
+    width: 565px;
+    min-height: 175px;
+    float: left;
+    text-align: center;
+}
+
+
+.company_icon {
+    width: 860px;
+    min-height: 40px;
+    margin-top: 160px;
+}
+.company_icon img{
+    margin-left: 20px;
+}
+
+.promotion {
+    width: 100%;
+    background-color: #111111;
+    min-height: 812px;
+    overflow: hidden;
+}
+
+.amazing {
+    padding-top: 100px;
+    
+}
+.amazing h1{
+    font-family:Brandon Grotesque;
+    font-size: 60px;
+    color: white;
+    font-weight: 100;
+    text-align: center;
+    
+}
+.amazing p{
+    font-family:Brandon Grotesque;
+    font-size: 22px;
+    color:#4b4b4b;
+    text-align: center;
+    
+}
+
+.cicrle {
+    width: 860px;
+    min-height: 371px;
+    margin-top: 30px;
+}
+.cir1{
+    width: 273px;
+    min-height: 362px;
+    float: left;
+}
+.sir{
+    width: 232px;
+    min-height: 232px;
+    float: left;
+    border: 7px solid white;
+    border-radius: 50%;
+    background-image: url(../images/me%203.jpg);
+}
+.lot2{
+    background-image: url(../images/me%204.jpg);
+    
+}
+.lot3{
+    background-image: url(../images/me%205.jpg);
+    
+}
+
+.cir2{
+    width: 273px;
+    min-height: 362px;
+    float: left;
+    margin-left: 15px;
+}
+.cir2 img{
+    margin-left: 22px;
+}
+.cir3{
+    width: 273px;
+    min-height: 362px;
+    float: left;
+    margin-left: 15px;
+}
+.cir3 img{
+    margin-left: 22px;
+}
+.twit{
+    width: 43px;
+    min-height: 43px;
+    border: 3px solid white;
+    border-radius: 50%;
+    background: url(../images/twitter.png) no-repeat  #111111 50%;
+    float: left;
+    margin-left: 40px;
+}
+.pin{
+    width: 43px;
+    min-height: 43px;
+    border: 3px solid white;
+    border-radius: 50%;
+    background: url(../images/pin.png) no-repeat  #111111 50%;
+    float: left;
+    margin-left: 13px;
+}
+.fb{
+    width: 43px;
+    min-height: 43px;
+    border: 3px solid white;
+    border-radius: 50%;
+    background: url(../images/fb.png) no-repeat  #111111 50%;
+    float: left;
+    margin-left: 10px;
+}
+.bol{
+    margin-left: 80px;
+}
+.goggle{
+    width: 43px;
+    min-height: 43px;
+    border: 3px solid white;
+    border-radius: 50%;
+    background: url(../images/ggl.png) no-repeat  #111111 50%;
+    float: left;
+    margin-left: 10px;
+    
+}
+.okay{
+    font-family:Brandon Grotesque;
+    font-size: 18px;
+    color: #adadad;
+    text-align: center;
+}
+.thik{
+    font-family:Brandon Grotesque;
+    font-size: 16px;
+    color: #adadad;
+    text-align: center;
+    
+}
+.poss{
+    width: 606px;
+    min-height: 64px;
+    font-family:Brandon Grotesque;
+    font-size: 20px;
+    color: #adadad;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer{
+    width:100%;
+    min-height: 640px;
+    background-color: #7690c5;
+    overflow: hidden;
+}
+.hello{
+    width: 470px;
+    min-height: 360px;
+    float: left;
+    box-sizing: border-box;
+    margin-top: 100px;
+    
+}
+.hello h1{
+    font-family:Brandon Grotesque;
+    font-size: 60px;
+    color: white;
+    font-weight: 100;
+    
+}
+.hello p{
+    font-family:Brandon Grotesque;
+    font-size: 18px;
+    color: #f0f2f8;  
+}
+.formgrp{
+    width: 435px;
+    min-height: 360px;
+    float: right;
+    box-sizing: border-box;
+    margin-top: 100px;
+}
+input[type=text]{
+    width: 400px;
+    min-height: 52px;
+    border-radius: 5%;
+    font-family:Brandon Grotesque;
+    font-size: 18px;
+    color: #c0c0c0; 
+    padding-left: 26px;
+    
+}
+textarea{
+    font-family:Brandon Grotesque;
+    font-size: 18px;
+    color: #c0c0c0; 
+    padding-left: 26px;
+    padding-top: 15px;
+}
+.copy{
+   width: 390px;
+    min-height: 20px;
+    font-family: Brandon Grotesque;
+    font-size: 16px;
+    color: white;
+    overflow: hidden;
+    margin: 65px 291px;
+}
+.fotfot{
+    width: 940px;
+    min-height: 360px;
+    overflow: hidden;
+}
+.mbl{
+    width: 470px;
+    min-height:176px;
+    margin-top: 20px;
+}
+.mbl1{
+    width: 165px;
+    min-height: 30px;
+    float: left;
+    padding-left: 20px;
+    
+}
+.mbl2{
+    width: 165px;
+    min-height: 30px;
+    float: right;
+    padding-left: 20px;
+    margin-right: 15px;
+    
+}
+.mbl3{
+    width: 165px;
+    min-height: 30px;
+    float: left;
+    margin-top: 30px;
+    padding-left: 20px;
+}
+.mbl4{
+    width: 165px;
+    min-height: 30px;
+    float: right;
+    margin-top: 30px;
+    padding-left: 20px;
+    margin-right: 15px;
+}
+.mbl5{
+    width: 165px;
+    min-height: 30px;
+    float: left;
+    margin-top: 30px;
+    padding-left: 20px;
+}
+.mbl6{
+    width: 165px;
+    min-height: 30px;
+    float: right;
+    margin-top: 30px; 
+    padding-left: 20px;
+    margin-right: 15px;
+}
+class{
+    font-family: Brandon Grotesque;
+    font-size: 18px;
+    color: #f7f9fb;
+}
